@@ -1,16 +1,112 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700;800&family=Pacifico&family=Roboto:wght@900&display=swap');
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	padding: 20px;
+	margin-left: 30px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
+}
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 10px;
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.proGrad{
+	border: 2000px;
+	border-color: black;
+	width: 800px;
+	height: 800px;
+}
+
+#logo{
+	padding: 10px;
+	position: absolute;
+	display:flex;
+	justify-content:right;
+	align-self: flex-end;
+	margin-top: 50px;
+	margin-right: 550px;
+	top: 0;
+	right: 0;
+}
+
+#shadow{
+	font-weight: 600;
+	font-size: 40px;
+	top: 0;
+	right: 0;
+	font-family:'Roboto', sans-serif;
+	margin-top: 130px;
+	margin-left: 30px;
+	margin-bottom: 0px;
+	text-shadow: rgb(138, 134, 134) 0 3px 0 ;
+	
+}
+
+#message{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-left:30px ;
+}
+
+.score{
+	font-size: 20px;
+	color:white;
+	background-color: tomato;
+	margin-right: 513px;
+	
+}
+
+#start{
+	margin-left: 10px;
+}
+#row1{
+	margin-right: 50px;
+	margin-left: 0px;
+}
+
+.score1{
+	margin-left: 535px;
+}
+
+#Grid {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+	margin-left: 30px;
+	background-color: white;
+}
+
+#Grid td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 15px;
+	border-collapse: collapse;
+
+}
+
+#Grid th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: orangered;
+	color: white;
+	width: 50%;
+	margin-left: 20px;
+}
+
+.center {
+	text-align: center;
 }
